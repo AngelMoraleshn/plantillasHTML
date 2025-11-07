@@ -9,19 +9,31 @@
 </head>
 <body>
 
-<div class="container">
-<header>
-        <h1>Reseña Literaria</h1>
-        <p><strong>Cien años de soledad</strong> – Gabriel García Márquez</p>
-        </div>
-    </header>
 
-    <div class="row">
-    <!--columna1 -->
+    <div class="container">
+
+        <header>
+            <h1 class="display-1">Reseña Literaria</h1>
+        </header>
+
+        <div class="row">
+        <!--columna1 -->
         <div class="col-4">
-     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Cien_a%C3%B1os_de_soledad.png" alt="Portada del libro Cien años de soledad" height="250">
-     </br></br>
-        <table class="table">
+             <!-- Inicio de car-->
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title"> Cien Años de Soledad </h5>
+                <small class="text-body-secondary">Gabriel Garcia Marquez</small>
+            </div>
+            
+        <div class="card-body">
+        <figure class="figure">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Cien_a%C3%B1os_de_soledad.png" class="figure-img img-fluid rounded" alt="...">
+     <figcaption class="figure-caption">Portada del libro Cien años de soledad</figcaption>
+    </figure>
+    
+    <!--final de card-->
+        <table class="table table-bordered">
             <tr>
                 <td>Autor: </td>
                 <td>Gabriel García Márquez </td>
@@ -30,8 +42,12 @@
                 <td>Año de publicación</td>
                 <td>1967</td>
             </tr>
-        </table>
+            
+         </table>
+        </div>
     </div>
+   </div>
+    
     <!--columna2 -->
         <div class="col-8">
         <section class="resumen">
@@ -68,14 +84,16 @@
         </ul>
     </section>
         </div>
-    </div>
-
+   </div>
+    
 
     
 </div>
+ 
     <footer>
         <p>© 2025 Reseñas Literarias</p>
     </footer>
+    
 </body>
 
 </html>
